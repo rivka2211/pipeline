@@ -2,7 +2,7 @@ pipeline{
        agent { label 'verisoft-2' }
         options {
             skipStagesAfterUnstable()
-            disableConcurrentBuild()
+            // disableConcurrentBuild()
         }
         environment {
             PROJECT_NAME = 'pipeline-R-E'
